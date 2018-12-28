@@ -31,6 +31,8 @@ dtoverlay=rpi-ft5406
 
 # Serial console
 enable_uart=1
+dtoverlay=pi3-miniuart-bt
+core_freq=250
 
 # SPI
 dtparam=spi=on
